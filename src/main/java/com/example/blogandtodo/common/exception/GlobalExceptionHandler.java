@@ -49,7 +49,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(DataIntegrityViolationException.class)
     private Result dataOutOfRangeException(Exception ex) {
-        // MYSQL 字段过长
+        // POSTGRESQL 字段过长
         if (ex.getMessage().trim().startsWith("### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: insert or update on table")) {
             String message = ex.getMessage().split("Key")[1].split("\\.")[0];
             log.error("[DataIntegrityViolationException] " + message);
