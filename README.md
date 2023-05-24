@@ -2,10 +2,13 @@
 
 ## Api文档路径
 http://124.70.195.38:996/doc.html   
-(此端口由nginx提供反代理服务)   
 
-## 项目前端入口
-http://
+## 前端项目地址
+https://github.com/YEYUY/ToDoList-wechatApp/tree/main
+
+## 小程序测试 [扫码进入]
+![E}CY_H)DNY TAGF5Z41WKKU_tmb](https://github.com/Luyabs/blog-and-todo-backend/assets/74538732/28b61812-87e8-458d-a32d-11329c01203b)
+
 
 ## 运行前须知
 1. 需要在/src/main/resources下追新增一个文件: application-dev.yaml
